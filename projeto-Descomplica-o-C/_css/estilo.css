@@ -1,0 +1,239 @@
+@charset ="uft-8";
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+
+body{
+
+	font-family: 'Muli', sans-serif;
+	font-size: 15pt;
+	font-style: bold;
+	background: #dddddd;
+
+}
+
+p{
+
+	text-indent: 45px;
+	text-align: justify;
+
+}
+
+
+/*Menu*/
+
+header#cabecalho{ 
+
+
+   width: 100%;
+   height: 120px;
+   background: url("../_imagens/logo.png") 1.75% 50% no-repeat;
+   background-color: #37A7F9;
+   position: relative;
+   margin: -25px auto 40px auto;
+   border-radius: 30px 30px 0px 0px;
+
+}
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	top: 30px;
+	left: 380px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #81CAFF;
+	padding: 15px;
+	transition: background-color 1s;
+	margin-right: 3px;
+	border-radius: 10px;
+
+}
+
+nav#menu li a{
+	text-decoration: none;
+	color: #000000
+}
+
+nav#menu li:hover{
+   
+    background-color: rgba(175, 205, 232, .4);
+
+}
+
+nav#menu-artigos ul{
+
+   list-style: square;
+  
+}
+
+nav#menu-artigos li{
+	transition: color 1s;
+}
+
+nav#menu-artigos li a{
+
+   text-decoration: none;
+   color: #000000;
+  
+}
+
+nav#menu-artigos li a:hover{
+
+   color: #7E7E7E;
+  
+}
+
+
+/*Interface geral*/
+
+div#interface{
+
+    width: 900px;
+    margin: -20px auto 0px auto;
+	box-shadow: 6px 9px 15px -4px rgba(0,0,0,0.75);
+	border-radius: 30px 30px;
+    background-color: #D9E2E5;
+    position: relative;
+
+}
+
+/*Tabelas*/
+
+
+/*Interface dos artigos */
+
+header#cabecalho-artigo{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+article#corpo-artigo{
+
+	min-height: 600px;
+	margin-top: -50px;
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article#corpo-artigo img{
+
+  border: 5px #37A7F9 solid;
+
+}
+
+article#corpo-artigo figcaption#legenda{
+	font-style: italic;
+}
+
+header#cabecalho-artigo h1{
+	
+  margin-left: 25px;
+}
+
+header#cabecalho-artigo h3{
+	
+  margin-left: 35px;
+}
+
+section#downloads h1{
+	font-style: italic;
+}
+
+
+div#corpo-menu-artigos{
+
+	padding: 20px;
+	background-color: #66c2ff;
+	border-radius: 15px;
+}
+
+div#corpo-menu-artigos header#cabecalho-artigo{
+
+	margin-top: -15px
+}
+
+/* Localização (MAPS) */
+div#maps{
+	width: 400px;
+	height: 300px;
+	border: 5px solid #37A7F9;
+	border-radius: 10px;
+	margin: 30px auto 0px auto;
+}
+
+div#maps iframe{
+	
+	margin-bottom: 10px;
+	
+}
+
+caption#legenda-mapa{
+
+	background-color: black;
+}
+
+/* Imagens + Texto compiladores*/
+
+div#comp1{
+	padding: 20px;
+}
+
+
+img#CodeBlocks{
+
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 7px;
+  border-radius: 10px;
+
+}
+
+img#DevC{
+
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 7px;
+  border-radius: 10px;
+
+
+}
+
+.centro{
+	text-align: center;
+}
+
+.foto-compilador a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.foto-compilador a:hover{
+	text-decoration: none;
+	color: #7E7E7E;
+}
+
+/*rodape*/
+
+footer#rodape{
+	width: 900px;
+	height: 80px;
+	background-color: #37A7F9;
+}
+
+footer#rodape p{
+	padding-top: 30px;
+	font-family: 'Concert One', cursive;
+}
+
